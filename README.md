@@ -38,7 +38,7 @@ Notlar Türkçe yazıldı; teknik terimler bilinçli olarak İngilizce bırakıl
 |---|---|---|---|
 | 01 | **[Incident Handling Process](./01-incident-handling-process/)** | NIST SP 800-61 lifecycle, Cyber Kill Chain, MITRE ATT&CK, Pyramid of Pain, TheHive, IOC standartları | ✅ Tamamlandı |
 | 02 | **[Security Monitoring & SIEM Fundamentals](./02-security-monitoring-siem-fundamentals/)** | SIEM veri akışı, SOC tier yapısı ve rolleri, ATT&CK use case'leri, Elastic Stack, KQL, ECS, detection rule geliştirme, Kibana dashboard, alert triaging | ✅ Tamamlandı |
-| 03 | Windows Event Logs & Finding Evil | — | 🔜 Planlandı |
+| 03 | **[Windows Event Logs & Finding Evil](./03-windows-event-logs/)** | Event anatomisi ve Logon ID korelasyonu, kritik System/Security event ID'leri, Sysmon detection'ları, ETW mimarisi ve SilkETW, Get-WinEvent ile log analizi | ✅ Tamamlandı |
 | 04 | Introduction to Threat Hunting & Hunting With Elastic | — | 🔜 Planlandı |
 | 05 | Understanding Log Sources & Investigating with Splunk | — | 🔜 Planlandı |
 | 06 | Security Incident Reporting | — | 🔜 Planlandı |
@@ -54,7 +54,9 @@ CDSA/
 ├── README.md                                  ← bu dosya (index)
 ├── 01-incident-handling-process/
 │   └── README.md                              ← modül notu
-└── 02-security-monitoring-siem-fundamentals/
+├── 02-security-monitoring-siem-fundamentals/
+│   └── README.md
+└── 03-windows-event-logs/
     └── README.md
 ```
 
@@ -73,7 +75,8 @@ Notlar aşağıdaki kaynaklardan derlendi:
 - **Lockheed Martin** — *Cyber Kill Chain*
 - **David J. Bianco** — *The Pyramid of Pain*
 - **Elastic** — ECS, Winlogbeat ve Filebeat field referansları
-- **Microsoft** — Windows Security Auditing event referansları
+- **Microsoft** — Windows Security Auditing event referansları, ETW dokümantasyonu
+- **Sysinternals** — Sysmon
 - Sektör raporları: The DFIR Report, Unit 42 Global IR Report
 
 ---
