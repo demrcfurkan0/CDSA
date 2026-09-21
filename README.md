@@ -37,7 +37,7 @@ Notlar Türkçe yazıldı; teknik terimler bilinçli olarak İngilizce bırakıl
 | # | Modül | Konular | Durum |
 |---|---|---|---|
 | 01 | **[Incident Handling Process](./01-incident-handling-process/)** | NIST SP 800-61 lifecycle, Cyber Kill Chain, MITRE ATT&CK, Pyramid of Pain, TheHive, IOC standartları | ✅ Tamamlandı |
-| 02 | Security Monitoring & SIEM Fundamentals | — | 🔜 Planlandı |
+| 02 | **[Security Monitoring & SIEM Fundamentals](./02-security-monitoring-siem-fundamentals/)** | SIEM veri akışı, SOC tier yapısı ve rolleri, ATT&CK use case'leri, Elastic Stack, KQL, ECS, detection rule geliştirme, Kibana dashboard, alert triaging | ✅ Tamamlandı |
 | 03 | Windows Event Logs & Finding Evil | — | 🔜 Planlandı |
 | 04 | Introduction to Threat Hunting & Hunting With Elastic | — | 🔜 Planlandı |
 | 05 | Understanding Log Sources & Investigating with Splunk | — | 🔜 Planlandı |
@@ -51,9 +51,11 @@ Notlar Türkçe yazıldı; teknik terimler bilinçli olarak İngilizce bırakıl
 
 ```
 CDSA/
-├── README.md                          ← bu dosya (index)
-└── 01-incident-handling-process/
-    └── README.md                      ← modül notu
+├── README.md                                  ← bu dosya (index)
+├── 01-incident-handling-process/
+│   └── README.md                              ← modül notu
+└── 02-security-monitoring-siem-fundamentals/
+    └── README.md
 ```
 
 Her yeni modül `NN-modul-adi/README.md` olarak eklenir; yukarıdaki tablo da aynı anda
@@ -70,6 +72,8 @@ Notlar aşağıdaki kaynaklardan derlendi:
 - **MITRE ATT&CK** — Enterprise Matrix
 - **Lockheed Martin** — *Cyber Kill Chain*
 - **David J. Bianco** — *The Pyramid of Pain*
+- **Elastic** — ECS, Winlogbeat ve Filebeat field referansları
+- **Microsoft** — Windows Security Auditing event referansları
 - Sektör raporları: The DFIR Report, Unit 42 Global IR Report
 
 ---
