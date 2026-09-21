@@ -39,7 +39,7 @@ Notlar Türkçe yazıldı; teknik terimler bilinçli olarak İngilizce bırakıl
 | 01 | **[Incident Handling Process](./01-incident-handling-process/)** | NIST SP 800-61 lifecycle, Cyber Kill Chain, MITRE ATT&CK, Pyramid of Pain, TheHive, IOC standartları | ✅ Tamamlandı |
 | 02 | **[Security Monitoring & SIEM Fundamentals](./02-security-monitoring-siem-fundamentals/)** | SIEM veri akışı, SOC tier yapısı ve rolleri, ATT&CK use case'leri, Elastic Stack, KQL, ECS, detection rule geliştirme, Kibana dashboard, alert triaging | ✅ Tamamlandı |
 | 03 | **[Windows Event Logs & Finding Evil](./03-windows-event-logs/)** | Event anatomisi ve Logon ID korelasyonu, kritik System/Security event ID'leri, Sysmon detection'ları, ETW mimarisi ve SilkETW, Get-WinEvent ile log analizi | ✅ Tamamlandı |
-| 04 | Introduction to Threat Hunting & Hunting With Elastic | — | 🔜 Planlandı |
+| 04 | **[Introduction to Threat Hunting & Hunting With Elastic](./04-threat-hunting/)** | Dwell time ve hunting modları, 8 aşamalı hunt süreci, CTI kavramları (Diamond Model, Pyramid of Pain, 3 intelligence katmanı), Elastic üzerinde uçtan uca Stuxbot hunt'ı | ✅ Tamamlandı |
 | 05 | Understanding Log Sources & Investigating with Splunk | — | 🔜 Planlandı |
 | 06 | Security Incident Reporting | — | 🔜 Planlandı |
 
@@ -56,7 +56,9 @@ CDSA/
 │   └── README.md                              ← modül notu
 ├── 02-security-monitoring-siem-fundamentals/
 │   └── README.md
-└── 03-windows-event-logs/
+├── 03-windows-event-logs/
+│   └── README.md
+└── 04-threat-hunting/
     └── README.md
 ```
 
@@ -74,6 +76,7 @@ Notlar aşağıdaki kaynaklardan derlendi:
 - **MITRE ATT&CK** — Enterprise Matrix
 - **Lockheed Martin** — *Cyber Kill Chain*
 - **David J. Bianco** — *The Pyramid of Pain*
+- **Caltagirone, Pendergast, Betz** — *The Diamond Model of Intrusion Analysis*
 - **Elastic** — ECS, Winlogbeat ve Filebeat field referansları
 - **Microsoft** — Windows Security Auditing event referansları, ETW dokümantasyonu
 - **Sysinternals** — Sysmon
